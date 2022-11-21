@@ -16,5 +16,10 @@ pipeline {
                 sh 'echo Deployando component'
             }
         }
+        stage('Build') { 
+            steps {
+                sh 'echo Buildeando component'
+            }
+        }
     }
 }
